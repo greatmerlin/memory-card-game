@@ -17,10 +17,11 @@ function Board() {
     "🐋",
   ];
 
-  return fronts.map((emoji) => {
+  const deck = fronts.concat(fronts).sort(() => Math.random() -0.5);
+
+  return deck.map((emoji) => {
     return (
-      <div className="board">
-        <Card content={emoji} />
+      <div>
         <Card content={emoji} />
       </div>
     );

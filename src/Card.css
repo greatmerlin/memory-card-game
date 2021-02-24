@@ -1,17 +1,11 @@
 .Card {
   border: #34694f;
-  border-top-style: none;
-  border-right-style: none;
-  border-bottom-style: none;
-  border-left-style: none;
   border-style: solid;
   background-color: #34694f;
   height: 100px;
   width: 100px;
   border-radius: 5px;
   margin: 10px;
+  float: left;
 }
 
-.board {
-    
-}
