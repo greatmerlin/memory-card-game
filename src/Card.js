@@ -9,7 +9,7 @@ class Card extends React.Component {
     if(this.props.faceUp) {
         content = this.props.content;
     } else {
-        content = "Back";
+        content = "";
     }
 
     return (
