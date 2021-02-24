@@ -9,3 +9,9 @@
   float: left;
 }
 
+.Card.face-up {
+  border: #63E181;
+  border-style: solid;
+  background-color: #63E181;
+}
+

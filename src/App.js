@@ -8,7 +8,6 @@ function App() {
       
       🧠 Test Your Memory 🧠
       
-
       </header>
       <Board />
     </div>
@@ -16,3 +15,4 @@ function App() {
 }
 
 export default App;
+
