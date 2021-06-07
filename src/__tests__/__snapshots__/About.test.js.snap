@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`about component renders correctly 1`] = `
+<Fragment>
+  <Sidebar
+    isOpen={false}
+    toggle={[Function]}
+  />
+  <SilentNavbar
+    toggle={[Function]}
+  />
+  <styled.div>
+    <styled.div>
+      <Styled(Link)>
+        About this game
+      </Styled(Link)>
+      <styled.div>
+        <styled.div>
+          <styled.span>
+            Memory UP is a card game in which all cards are laid face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs of matching cards. However, this is a special version of the game. The difference is that each player gets some coins, depending on the difficulty he selects. If he doen't find a matching pair, he loses a coin. The game finishes as soon as the player has lost all of his coins.
+            <br />
+            This game was developed from "Theologos Baxevanos" as part of a semester exercise for the Fernfachhochschule Schweiz, university of applied sciences in Switzerland.
+            <br />
+            The project could not have been finished without the support of the advanced web technologies lecturer "Philipp Lauwiner". A huge thank you for making this subject fun and interesting to every single one of us.
+            <br />
+            Have fun playing the game! :)
+          </styled.span>
+          Î
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <br />
+    <Styled(Link)
+      to="/"
+    >
+       Back 
+    </Styled(Link)>
+  </styled.div>
+  <Footer />
+</Fragment>
+`;

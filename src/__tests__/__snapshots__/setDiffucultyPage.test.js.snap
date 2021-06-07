@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`setDifficulty components renders correctly 1`] = `
+<Fragment>
+  <Sidebar
+    isOpen={false}
+    toggle={[Function]}
+  />
+  <SilentNavbar
+    toggle={[Function]}
+  />
+  <styled.div>
+    <styled.div>
+      <Styled(Link)>
+        Memory UP!
+      </Styled(Link)>
+      <styled.div>
+        <styled.form>
+          <styled.h1>
+            Hello undefined, select the difficulty
+          </styled.h1>
+          <Styled(Link)
+            to={
+              Object {
+                "pathname": "/game",
+                "state": Object {
+                  "difficulty": "easy",
+                },
+              }
+            }
+          >
+            Easy
+          </Styled(Link)>
+          <Styled(Link)
+            to={
+              Object {
+                "pathname": "/game",
+                "state": Object {
+                  "difficulty": "medium",
+                },
+              }
+            }
+          >
+            Medium
+          </Styled(Link)>
+          <Styled(Link)
+            to={
+              Object {
+                "pathname": "/game",
+                "state": Object {
+                  "difficulty": "hard",
+                },
+              }
+            }
+          >
+            Hard
+          </Styled(Link)>
+        </styled.form>
+      </styled.div>
+    </styled.div>
+  </styled.div>
+  <Footer />
+</Fragment>
+`;
